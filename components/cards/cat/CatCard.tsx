@@ -20,7 +20,7 @@ const CatCard: React.FC<ICatCard> = ({ tag, title, body, author, time }) => {
             className={styles.card__image}
             fill={false}
             width="600"
-            height="250"
+            height="400"
           />
         </div>
         <div className={styles.card__body}>
